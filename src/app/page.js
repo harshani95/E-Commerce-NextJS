@@ -1,12 +1,15 @@
 
-import HeaderMain from "./components/HeaderMain";
-import HeaderTop from "./components/HeaderTop";
+import Hero from "./components/Hero";
+import NewProducts from "./components/NewProducts";
+import Testimonial from "./components/Testimonial";
+
 
 export default function Home() {
   return (
     <main>
-      <HeaderTop />
-      <HeaderMain />
+      <Hero/>
+      <NewProducts />
+      <Testimonial />
     </main>
   );
 }
